@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebration Corner | Birthday Planners</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h2>Celebration<span>Corner.</span></h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#calculator">Budget</a></li>
+                <li><a href="#booking">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="small-title">MAKE EVERY MOMENT SPECIAL</p>
+            <h1>Celebrate Your Day<br>In A Beautiful Way</h1>
+            <p>Beautiful birthday decorations for your special moments. We make your celebrations memorable.</p>
+            <a href="#packages" class="main-btn">Explore Packages</a>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages" id="packages">
+
+        <div class="section-heading">
+            <p>OUR SERVICES</p>
+            <h2>Birthday Decoration Packages</h2>
+            <span>Choose the perfect decoration for your special day.</span>
+        </div>
+
+        <div class="package-container">
+
+            <!-- Basic Decoration Package -->
+            <div class="package-card">
+              
+                <div class="package-info">
+                    <h3>Basic Decoration</h3>
+                    <p>Simple and beautiful birthday setup.</p>
+                    
+                    <h2>Basic Designs</h2>
+                    <div class="design">
+                        <div>
+                            <img src="./image/basic/1741846225216.webp" alt="Design 1">
+                            
+                            <h3>Design 1</h3>
+                            <button onclick="selectDesign('Basic - Design 1')">Select</button>
+                        </div>
+                        <div>
+                            <img src="./image/basic/happy-birthday-balloon-arch-1785229784502-624434.webp" alt="Design 2">
+                            <h3>Design 2</h3>
+                            <button onclick="selectDesign('Basic - Design 2')">Select</button>
+                        </div>
+                        <div>
+                            <img src="./image/basic/simple-hall-decoration-1785216516633-781870.webp" alt="Design 3">
+                            <h3>Design 3</h3>
+                            <button onclick="selectDesign('Basic - Design 3')">Select</button>
+                        </div>
+                        <div>
+                            <img src="./image/basic/simple-room-decoration-for-birthday-1785216725043-753694.webp" alt="Design 4">
+                            <h3>Design 4</h3>
+                            <button onclick="selectDesign('Basic - Design 4')">Select</button>
+                        </div>
+                    </div>
+
+                    <h2>₹999</h2>
+                    <button class="choose-btn" data-package="Basic Decoration" data-price="999">
+                        Choose Package
+                    </button>
+                </div>
+            </div>
+
+            <!-- Premium Decoration Package -->
+            <div class="package-card">
+      
+                <div class="package-info">
+                    <h3>Premium Decoration</h3>
+                    <p>Make your birthday extra special.</p>
+
+                    <h2>Premium Designs</h2>
+                    <div class="design">
+                        <div>
+                            <img src="./image/premium/images (1).jpg" alt="Design 1">
+                            <h3>Design 1</h3>
+                            <button onclick="selectDesign('Premium - Design 1')">Select</button>
+                        </div>
+                           <div>
+                            <img src="./image/premium/images (2).jpg" alt="Design 1">
+                            <h3>Design 1</h3>
+                            <button onclick="selectDesign('Premium - Design 1')">Select</button>
+                        </div>
+                            <div>
+                            <img src="./image/premium/images (3).jpg" alt="Design 1">
+                            <h3>Design 1</h3>
+                            <button onclick="selectDesign('Premium - Design 1')">Select</button>
+                        </div>
+                            <div>
+                            <img src="./image/premium/images (4).jpg" alt="Design 1">
+                            <h3>Design 1</h3>
+                            <button onclick="selectDesign('Premium - Design 1')">Select</button>
+                        </div>
+                    </div>
+
+                    <h2>₹2,499</h2>
+                    <button class="choose-btn" data-package="Premium Decoration" data-price="2499">
+                        Choose Package
+                    </button>
+                </div>
+            </div>
+
+            <!-- Luxury Decoration Package -->
+            <div class="package-card">
+           
+                <div class="package-info">
+                    <h3>Luxury Decoration</h3>
+                    <p>A grand setup for unforgettable memories.</p>
+
+                    <h2>Luxury Designs</h2>
+                    <div class="design">
+                        <div>
+                            <img src="./image/luxary/6-51-royal-red-gold-luxury-balloon-arch-decoration-kit-with-led-resized-original-imahkr4rqkkfcmyx.webp" alt="Design 1">
+                            <h3>Design 1</h3>
+                            <button onclick="selectDesign('Luxury - Design 1')">Select</button>
+                        </div>
+                        <div>
+                            <img src="./image/luxary/images (1).jpg" alt="Design 2">
+                            <h3>Design 2</h3>
+                            <button onclick="selectDesign('Luxury - Design 2')">Select</button>
+                        </div>
+                         <div>
+                            <img src="./image/luxary/images (2).jpg" alt="Design 2">
+                            <h3>Design 2</h3>
+                            <button onclick="selectDesign('Luxury - Design 2')">Select</button>
+                        </div>
+                         <div>
+                            <img src="./image/luxary/images (3).jpg" alt="Design 2">
+                            <h3>Design 2</h3>
+                            <button onclick="selectDesign('Luxury - Design 2')">Select</button>
+                        </div>
+                         <div>
+                            <img src="./image/luxary/images.jpg" alt="Design 2">
+                            <h3>Design 2</h3>
+                            <button onclick="selectDesign('Luxury - Design 2')">Select</button>
+                        </div>
+                    </div>
+
+                    <h2>₹4,999</h2>
+                    <button class="choose-btn" data-package="Luxury Decoration" data-price="4999">
+                        Choose Package
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Selected Design Display Text -->
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h3 id="selected" style="color: #bd777e;"></h3>
+    </div>
+
+    <!-- Budget Calculator -->
+    <section class="calculator" id="calculator">
+        <div class="section-heading">
+            <p>PLAN YOUR CELEBRATION</p>
+            <h2>Calculate Your Budget</h2>
+            <span>Select extra decorations to estimate your total cost.</span>
+        </div>
+
+        <div class="calculator-box">
+            <h3>Selected Package</h3>
+            <p id="selectedPackage">No package selected</p>
+
+            <h3>Choose Extra Decorations</h3>
+            <label><input type="checkbox" class="extra" value="500"> Balloon Decoration - ₹500</label>
+            <label><input type="checkbox" class="extra" value="800"> Birthday Banner - ₹800</label>
+            <label><input type="checkbox" class="extra" value="1000"> LED Lights - ₹1,000</label>
+            <label><input type="checkbox" class="extra" value="1500"> Flower Decoration - ₹1,500</label>
+
+            <div class="total">
+                <h3>Estimated Total</h3>
+                <h2 id="totalAmount">₹0</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="section-heading">
+            <p>LET'S CELEBRATE</p>
+            <h2>Book Your Celebration</h2>
+            <span>Share your details and plan your special day with us.</span>
+        </div>
+
+        <form id="bookingForm">
+            <input type="text" id="customerName" placeholder="Your Name" required>
+            <input type="tel" id="phone" placeholder="Mobile Number" pattern="[0-9]{10}" maxlength="10" required>
+            <label for="eventDate">Birthday Date</label>
+            <input type="date" id="eventDate" required>
+            <input type="text" id="location" placeholder="Event Location" required>
+            <button type="submit" class="main-btn">Submit Booking</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h2>Celebration<span>Corner.</span></h2>
+        <p>Making your special moments beautiful.</p>
+        <p>© 2026 Celebration Corner. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
